@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>align item</title>
+</head>
+<style>
+    p{
+        font-size: 60px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-weight: bold;
+    }
+                    /*flex-start*/
+    .random{
+        display: flex;
+        align-items: flex-start;
+        border: 2px solid #000;
+        width: 900px;
+        height: 200px;
+    }
+    .tulisan1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    *{
+        height: 100px;
+        width: 100px;
+        margin-bottom: 30px;
+    }
+    .rr{
+        background-color: rgb(0, 113, 128);
+    }
+    .dd{
+        background-color: rgb(255, 0, 0);
+        height: 200px;
+    }
+    .aa{
+        background-color: rgb(251, 255, 0);
+        height: 130px;
+    }
+        /*flex-end*/
+    .random1{
+        display: flex;
+        align-items: flex-end;
+        border: 2px solid #000;
+        width: 900px;
+        height: 200px;
+    }
+    .tulisan2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .zz{
+        background-color: rgb(0, 113, 128);
+    }
+    .ee{
+        background-color: rgb(255, 0, 0); 
+        height: 170px;
+    }
+    .ai{
+        background-color: rgb(251, 255, 0);
+        height: 130px;
+    }
+    /*center*/
+    .random2{
+        display: flex;
+        align-items: center;
+        border: 2px solid #000;
+        width: 900px;
+        height: 200px;
+    }
+    .tulisan3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .zi{
+        background-color: rgb(0, 113, 128);
+    }
+    .zu{
+        background-color: rgb(255, 0, 0);
+        height: 150px;
+    }
+    .ze{
+        background-color: rgb(251, 255, 0);
+        height: 120px;
+    }
+        /*stretch*/
+    .random3{
+        display: flex;
+        align-items: stretch;
+        border: 2px solid #000;
+        width: 900px;
+        height: 200px;
+    }
+    .tulisan4{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .io{
+        background-color: rgb(0, 113, 128);
+    }
+    .ui{
+        background-color: rgb(255, 0, 0);
+        height: 150px;
+    }
+    .ty{
+        background-color: rgb(251, 255, 0);
+        height: 120px;
+    }
+</style>
+<body>
+    <p>ALIGN-ITEM</p>
+                <!--flex-start-->
+        <div class="tulisan1">flex-start</div>
+            <div class="random">
+                <div class="rr">1</div>
+                <div class="dd">2</div>
+                <div class="aa">3</div>
+            </div>
+                <!--flex-end-->
+        <div class="tulisan2">flex-end</div>
+            <div class="random1">
+                <div class="zz">1</div>
+                <div class="ee">2</div>
+                <div class="ai">3</div>
+            </div>
+                <!--center-->
+        <div class="tulisan3">center</div>
+            <div class="random2">
+                <div class="zi">1</div>
+                <div class="zu">2</div>
+                <div class="ze">3</div>
+            </div>
+                <!--strech-->
+        <div class="tulisan4">stretch</div>
+            <div class="random3">
+                <div class="io">1</div>
+                <div class="ui">2</div>
+                <div class="ty">3</div>
+            </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alig content</title>
+    <style>
+        .paragraf{
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+        }
+                    /*align-content*/
+        .cotainer{
+            display: flex;
+            align-content: center;       /*jadi penggunaan pada align-cont harus disertai dengan sintag justify-content*/
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            border: 2px solid black;
+            height: 400px;
+        }
+        .content{
+            height: 100px;
+            width: 200px;
+            margin: 10px;
+            background-color: chocolate;
+        }
+        .huruf{
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+        }
+        .coi{
+            display: flex;
+            align-content: flex-end;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            border: 2px solid black;
+            height: 300px;
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="paragraf">align-content</div>
+    <div class="cotainer">
+        <div class="content cotent1">1</div>
+        <div class="content cotent2">2</div>
+        <div class="content cotent3">3</div>
+        <div class="content cotent4">4</div>
+        <div class="content cotent5">5</div>
+    </div>
+    <!--huruf-->
+    <div class="huruf">HURUF</div>
+    <div class="coi">
+        <div class="co">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad maxime ex iste sapiente sit molestiae exercitationem ea rerum, dolorem labore quidem natus illum, totam expedita nobis minus delectus nulla perferendis, aperiam assumenda! Ut in ex vel aperiam ducimus voluptates nostrum?</div>
+    </div>
+</body>
+</html>

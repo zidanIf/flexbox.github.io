@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>align-self</title>
+</head>
+<style>
+    .container{
+        display: flex;
+    }
+    .item1{
+        width: 200px;
+        height: 150px;
+        background-color: cornflowerblue;
+        align-self: flex-end;
+    }
+    .item2{
+        width: 200px;
+        height: 350px;
+        background-color: rgb(93, 102, 119);
+        align-self: center;
+    }
+    .item3{
+        width: 200px;
+        height: 100px;
+        background-color: rgb(100, 237, 134);
+        align-self: flex-start;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+    </div>
+</body>
+</html>

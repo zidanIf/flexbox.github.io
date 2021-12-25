@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex wrap</title>
+</head>
+<style>
+    .content{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+        /*kotak*/
+    *{
+        width: 300px;
+        height: 30px;
+    }
+    /*elemen*/
+    .satu{
+        background-color: rgb(163, 163, 212);
+    }
+    .dua{
+        background-color: rgb(45, 209, 201);
+    }
+    .tiga{
+        background-color: rgb(226, 175, 36);
+    }
+    .empat{
+        background-color: rgb(5, 255, 25);
+    }
+</style>
+<body>
+    <div class="content">
+        <div class="satu">1</div>
+        <div class="dua">2</div>
+        <div class="tiga">3</div>
+        <div class="empat">1</div>
+    </div>
+</body>
+</html>

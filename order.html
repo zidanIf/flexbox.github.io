@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexgrow</title>
+</head>
+<style>
+    .container{
+        display: flex;
+    }
+    .item1{
+        background: rgb(16, 0, 233);
+        flex-grow: 2;   /*ukuran elemen*/
+        order: 4;      /*perpindaham posisi elemen*/
+    }
+    .item2{
+        background: rgb(213, 236, 5);
+        flex-grow: 3;
+        order: 2;
+    }
+    .item3{
+        background: rgb(0, 77, 128);
+        flex-grow: 1;
+        order: 3;
+    }
+    .item4{
+        background: rgb(20, 4, 255);
+        flex-grow: 2;
+        order: 1;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="item1">iklan</div>
+        <div class="item2">home</div>
+        <div class="item3">header</div>
+        <div class="item4">iklan</div>
+    </div>
+</body>
+</html>
